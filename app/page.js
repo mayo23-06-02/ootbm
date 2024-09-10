@@ -5,6 +5,7 @@ import SectionOne from "@/components/Landing Page/S01/SectionOne";
 import BG from '../assets/images/BG Tiles.png';
 import BG_SM from '../assets/images/BG Tiles SM.png';
 import SectionTwo from "@/components/Landing Page/S02/SectionTwo";
+import SectionThree from "@/components/Landing Page/S03/SectionThree";
 
 export default function Home() {
   return (
@@ -20,10 +21,13 @@ export default function Home() {
         <div>
           <SectionOne />
           <SectionTwo />
+          <SectionThree />
         </div>
       </main>
       <span className="absolute top-0 -z-10">
         <Image src={BG} alt="BG" width={1000} height={1080} className="hidden lg:inline"/>
+        <Image src={BG_SM} alt="BG" width={1000} height={1080} className="lg:hidden"/>
+
       </span>
     </div>
   );

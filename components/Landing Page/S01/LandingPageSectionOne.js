@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import LP from '../../../assets/images/LP.svg'
+import Video from './Video'
 
 export default function LandingPageSectionOne() {
   return (
