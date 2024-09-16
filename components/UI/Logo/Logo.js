@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import LogoImage from '../../../assets/images/Logo.png'
+import LogoImage from '../../../assets/images/LOGO.png'
 export default function Logo() {
   return (
     <div>

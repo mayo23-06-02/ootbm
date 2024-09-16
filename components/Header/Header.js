@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../UI/Logo/Logo'
 import Image from 'next/image'
-import Menu from '../../assets/images/Menu.svg'
+import Menu from '../../assets/images/menu.svg'
 import Link from 'next/link'
 
 export default function Header() {
