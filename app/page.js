@@ -2,10 +2,13 @@ import Image from "next/image";
 import Head from "next/head";
 import Header from "@/components/Header/Header";
 import SectionOne from "@/components/Landing Page/S01/SectionOne";
-import BG from '../assets/images/BG Tiles.png';
-import BG_SM from '../assets/images/BG Tiles SM.png';
+import BG from '../assets/images/lp.gif';
+import BG_SM from '../assets/images/lpsm1.gif';
 import SectionTwo from "@/components/Landing Page/S02/SectionTwo";
 import SectionThree from "@/components/Landing Page/S03/SectionThree";
+import SectionFour from "@/components/Landing Page/S04/SectionFour";
+import SectionFive from "@/components/Landing Page/S05/SectionFive";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -22,11 +25,16 @@ export default function Home() {
           <SectionOne />
           <SectionTwo />
           <SectionThree />
+          <SectionFour />
+          <SectionFive />
         </div>
       </main>
-      <span className="absolute top-0 -z-10">
-        <Image src={BG} alt="BG" width={1000} height={1080} className="hidden lg:inline"/>
-        <Image src={BG_SM} alt="BG" width={1000} height={1080} className="lg:hidden"/>
+      <footer>
+        <Footer />
+      </footer>
+      <span className="absolute top-0 -z-10 opacity-60">
+        <Image src={BG} alt="BG" width={2500} height={2080} className="hidden lg:inline opacity0"/>
+        <Image src={BG_SM} alt="BG" width={2000} height={1380} className="lg:hidden"/>
 
       </span>
     </div>

@@ -15,7 +15,7 @@ export default function LandingPageSectionThree() {
             <span>
                 <Link href={'../../about-us'}>
                     <button className='text-white text-xl -translate-y-16 lg:-translate-y-24 cursor-pointer lg:text-3xl hover:text-[#D2402D]'>
-                        <a href='#'>READ MORE ABOUT US</a>
+                       READ MORE ABOUT US
                     </button>
                 </Link>
             </span>

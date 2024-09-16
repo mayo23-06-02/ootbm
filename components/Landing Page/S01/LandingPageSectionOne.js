@@ -7,6 +7,7 @@ export default function LandingPageSectionOne() {
   return (
     <div>
         <Image src={LP} alt="section-one" width={1920} height={1080} />
+
     </div>
   )
 }
