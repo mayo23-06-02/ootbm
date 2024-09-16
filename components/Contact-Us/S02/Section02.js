@@ -5,7 +5,7 @@ export default function Section02() {
         <div className='lg:grid lg:px-12 px-4 py-12 lg:pb-0 lg:pt-24 grid-cols-2 grid-flow-row space-y-12 lg:space-y-0'>
             <div>
                 <div className='space-y-2'>
-                    <div className='text-5xl lg:text-[100px]'>
+                    <div className='text-3xl lg:text-6xl'>
                         <p>Lets get</p><p> down to work</p>
                     </div>
                     <div className='flex font-sans font-semibold space-x-2 lg:space-x-4 text-xs lg:text-xl'>
@@ -21,7 +21,7 @@ export default function Section02() {
                 </div>
             </div>
             <div className='flex items-center justify-center'>
-                <div className='bg-[#F2F2F2] max-w-xl rounded-3xl p-4 lg:p-8 space-y-6'>
+                <div className='bg-[#F2F2F2] max-w-xl rounded-3xl p-6 lg:p-8 space-y-6'>
                     <div>
                         <p className='text-2xl lg:text-5xl'>Get in Touch</p>
                         <p className='text-sm lg:text-xl'>You can reach us any time</p>

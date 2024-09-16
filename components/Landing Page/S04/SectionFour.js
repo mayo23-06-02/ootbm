@@ -20,7 +20,9 @@ export default function SectionFour() {
                     <Link legacyBehavior href="https://pdfhost.io/v/hQ4MFams4_OOTBM_COMPANY_PROFILE_X_2023cdr" passHref>
                         <button className='py-4 px-6 max-w-96 w-full  rounded-xl bg-[#D2402D] text-white text-xl   cursor-pointer lg:text-3xl  hover:bg-gray-500'>Download our Potfolio </button>
                     </Link>
-                        <button   className='py-4 px-6 max-w-96 w-full  rounded-xl bg-white text-[#D2402D] text-xl   cursor-pointer lg:text-3xl  hover:bg-gray-00'>Share our Potfolio</button>
+                    <Link legacyBehavior href='../../../contact-us' passHref>
+                        <button className='py-4 px-6 max-w-96 w-full  rounded-xl text-[#D2402D] bg-white text-xl   cursor-pointer lg:text-3xl  hover:bg-gray-500'>Contact Us Today </button>
+                    </Link>
                 </div>
             </div>
         </div>
