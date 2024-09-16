@@ -30,10 +30,7 @@ export default function Section02() {
                         <span className='absolute text-white items-center flex flex-col'>
                             <div className='space-y-6'>
                                 <p className='text-7xl lg:text-[150px] space-y-16 flex flex-col items-center'>FINCORP</p>
-                                <p className='font-sans lg:max-w-[80vw] max-w-[90vw]   text-center text-xs lg:text-lg'>The print campaign serves both the corporate image and the target audience, centering around the
-                                    “Proudly Local” theme. It’s used particularly for the public to convey the powerful realities of enrgy and promote
-                                    awareness of the Kelloggs Tolagram noodles brand. Well-targeted advertisement with effective,  cocise
-                                    copywriting and original photography were used effectively to reach the nich institutional audience.  </p>
+                                <p className='font-sans lg:max-w-[80vw] max-w-[90vw]   text-center text-xs lg:text-lg'>In 2016, First Finance commissioned OOTBM to handle their branding positioning and identity for the company as well as for each of it’s three branches spread across the country. Since then, OOTBM has been involved in the creations of all First Finance marketing collateral - from it’s brochures, print media adverts billboards, stationery and digital material </p>
                             </div>
                         </span>
                     </li>
@@ -43,8 +40,8 @@ export default function Section02() {
                         <span className='absolute text-white items-center flex flex-col'>
                             <div className='space-y-6'>
                                 <p className='text-7xl lg:text-[150px] space-y-16 flex flex-col items-center'>KELLOGGS</p>
-                                <p className='font-sans lg:max-w-[80vw] max-w-[90vw]   text-center text-xs lg:text-lg'>The print campaign serves both the corporate image and the target audience, centering around the  “Proudly Local” theme. It’s used particularly for the public to convey the powerful realities of energy and promote
-                                    awareness of the Kellogg's Tolagram noodles brand. Well-targeted advertisement with effective,  concise copywriting and original photography were used effectively to reach the niche institutional audience. </p>
+                                <p className='font-sans lg:max-w-[80vw] max-w-[90vw]   text-center text-xs lg:text-lg'>The print campaign serves both the corporate image and the target audience, centering around the  &apos;&apos;Proudly Local&apos;&apos; theme. It&apos;s used particularly for the public to convey the powerful realities of energy and promote
+                                    awareness of the Kellogg&apos;s Tolagram noodles brand. Well-targeted advertisement with effective,  concise copywriting and original photography were used effectively to reach the niche institutional audience. </p>
                             </div>
                         </span>
                     </li>
