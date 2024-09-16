@@ -17,7 +17,7 @@ export default function Section02() {
                     <p>Plot 1613 | Hhelemisi Manzini</p>
                     <p>Office No. 01 | Box C633 Hub</p>
                     <p>+268 2505 7595 | +268 76420848</p>
-                    <p>outoftheboxmedia@hotmail.com</p>
+                    <p>info@outoftheboxmedia.com</p>
                 </div>
             </div>
             <div className='flex items-center justify-center'>
