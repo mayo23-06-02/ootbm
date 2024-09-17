@@ -1,5 +1,5 @@
 import React from 'react'
-import AB01 from '../../../assets/images/AB01.png'
+import AB01 from '../../../assets/images/AB01.svg'
 import Image from 'next/image'
 export default function Section01() {
   return (

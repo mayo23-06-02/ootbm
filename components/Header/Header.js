@@ -39,7 +39,7 @@ export default function Header() {
                             <p>OUR WORK</p>
                         </li>
                     </Link>
-                    <Link href={'../../our-clients'}>
+                    <Link href={'../../our-clientele'}>
                         <li className='cursor-pointer hover:scale-110  hover:text-black/50'>
                             <p>CLIENTS</p>
                         </li>
@@ -73,7 +73,7 @@ export default function Header() {
                                 <p>OUR WORK</p>
                             </li>
                         </Link>
-                        <Link href={'../../our-clients'}>
+                        <Link href={'../../our-clientele'}>
                             <li className='cursor-pointer hover:scale-110  hover:text-black/50'>
                                 <p>CLIENTS</p>
                             </li>

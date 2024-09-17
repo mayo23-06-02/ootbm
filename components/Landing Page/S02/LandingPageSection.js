@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import LP02 from '../../../assets/images/LP - 02.png'
+import LP02 from '../../../assets/images/LP - 02.jpg'
 import LP02SM from '../../../assets/images/LP - 02SM.png'
 
 export default function LandingPageSectionTwo() {
