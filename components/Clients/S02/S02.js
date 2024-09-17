@@ -8,13 +8,13 @@ export default function Section02() {
 
 
     return (
-        <div className='lg:grid lg:px-12 px-4 py-12 lg:pb-0 lg:pt-24 grid-cols-5 grid-flow-row space-y-12 lg:space-y-0'>
+        <div className='lg:grid lg:px-12 max-w-[1680px] px-4 py-12 lg:pb-0 lg:pt-24 grid-cols-5 grid-flow-row space-y-12 lg:space-y-0'>
             <div className='col-span-2'>
                 <div className='space-y-2'>
                     <div className='text-3xl lg:text-8xl'>
                         <p>Partners</p><p> & Clients</p>
                     </div>
-                    <div className='flex font-sans font-semibold space-x-2 lg:space-x-4 text-xs lg:text-xl'>
+                    <div className='flex font-sans font-semibold space-x-2 lg:space-x-4 text-xs lg:text-sm'>
                         <p>Advertising</p><p>   Branding </p><p>  Strategy </p><p>  Communications </p><p>  Design </p><p>  Events</p>
                     </div>
                 </div>

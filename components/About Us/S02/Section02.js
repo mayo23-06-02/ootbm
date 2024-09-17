@@ -4,9 +4,9 @@ import Stat from '../../../assets/images/STAT.svg'
 
 export default function Section02() {
     return (
-        <div className='px-4 lg:pt-16 pt-8 space-y-12 lg:space-y-0 lg:px-16 grid-cols-7 lg:grid grid-flow-row'>
-            <div className='col-span-4 space-y-8 lg:space-y-16 lg:pr-16'>
-                <div className='space-y-4'>
+        <div className='px-4 lg:pt-16 max-w-[1680px] pt-8 space-y-12 lg:space-y-0 lg:px-16 grid-cols-7 lg:grid grid-flow-row'>
+            <div className='col-span-4 space-y-8 flex items-end flex-col lg:space-y-16 lg:pr-16'>
+                <div className='space-y-4 max-w-xl '>
                     <p className='text-3xl lg:text-5xl'>&apos;&apos;Started from the bottom now we are here&apos;&apos;</p>
                     <p className='font-sans font-semibold  text-justify'>
                         Out of the Box Media, founded in 2013 by Mr. Tammy Dlamini, is a Full House Advertising Agency & Brand Solutions company specializing in advertising, communications, brand management, and events management.
@@ -18,7 +18,7 @@ export default function Section02() {
                         Out of the Box Media employs 10 full-time and 5 part-time employees, serving a diverse clientele from both the public and private sectors. The company also runs an intern program to provide industry experience to students.
                     </p>
                 </div>
-                <div className='space-y-4'>
+                <div className='space-y-4 max-w-xl'>
                     <p className='text-3xl lg:text-5xl'>&apos;&apos;This is our story and its not over yet&apos;&apos;</p>
                     <p className='font-sans font-semibold  text-justify'>
                         OOTBM is a strategic branding and communication design consultancy, specializing in emerging markets and delivering media-neutral, business-focused solutions to client challenges. Areas of practice include design thinking, information, environmental and digital design, stakeholder communication and investor relations, internal brand engagement, advertising, public relations and events, digital brand management, procurement, project management and printing.

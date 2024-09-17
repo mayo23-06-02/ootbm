@@ -17,7 +17,7 @@ export default function Clients() {
                 <div>
                     <Header />
                 </div>
-                <div>
+                <div className="items-center flex flex-col">
                     <Section01 />
                     <Section02 />
                     <div className="pt-24 lg:pt-0">
