@@ -14,8 +14,9 @@ export default function AboutUs() {
     return (
         <div className="relative max-w-[1920px] mx-auto">
             <Head>
-                <title>Home</title>
+                <title>OOTBM</title>
                 <meta charSet="utf-8" />
+                <link rel="icon" href="/favicon.ico" sizes="any" />
             </Head>
             <main className="">
                 <div>

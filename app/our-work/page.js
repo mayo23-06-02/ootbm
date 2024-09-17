@@ -12,8 +12,9 @@ export default function OurWork() {
     return (
         <div className="relative max-w-[1920px] mx-auto">
             <Head>
-                <title>Home</title>
+                <title>OOTBM</title>
                 <meta charSet="utf-8" />
+                <link rel="icon" href="/favicon.ico" sizes="any" />
             </Head>
             <main className="">
                 <div>
@@ -23,7 +24,7 @@ export default function OurWork() {
                     <Section01 />
                     <Section02 />
                     <div className="lg:pt-16 pt-10">
-                    <Section04 />
+                        <Section04 />
                     </div>
                     <div className="pt-24 lg:pt-0">
                         <SectionFive />
