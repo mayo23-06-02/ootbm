@@ -30,33 +30,34 @@ export default function Footer() {
                     </li>
                 </Link>
                 <Link href={'../../our-work'}>
-                <li className='flex items-center justify-center cursor-pointer hover:scale-105'>
-                    <Image src={Partners} alt="section-one" width={400} height={1080} />
-                    <span className='absolute'>
-                        <p className='text-white'>Our Work</p>
-                    </span>
-                </li>
+                    <li className='flex items-center justify-center cursor-pointer hover:scale-105'>
+                        <Image src={Partners} alt="section-one" width={400} height={1080} />
+                        <span className='absolute'>
+                            <p className='text-white'>Our Work</p>
+                        </span>
+                    </li>
                 </Link>
                 <Link href={'../../our-clientele'}>
-
-                <li className='flex items-center justify-center cursor-pointer hover:scale-105'>
-                    <Image src={Work} alt="section-one" width={400} height={1080} />
-                    <span className='absolute'>
-                        <p className='text-white'>Clients</p>
-                    </span>
-                </li>
+                    <li className='flex items-center justify-center cursor-pointer hover:scale-105'>
+                        <Image src={Work} alt="section-one" width={400} height={1080} />
+                        <span className='absolute'>
+                            <p className='text-white'>Clients</p>
+                        </span>
+                    </li>
                 </Link>
-                <li className='flex items-center justify-center cursor-pointer hover:scale-105'>
-                    <Image src={Contact} alt="section-one" width={400} height={1080} />
-                    <span className='absolute'>
-                        <p className='text-white'>Contact Us</p>
-                    </span>
-                </li>
+                <Link href={'../../contact-us'}>
+                    <li className='flex items-center justify-center cursor-pointer hover:scale-105'>
+                        <Image src={Contact} alt="section-one" width={400} height={1080} />
+                        <span className='absolute'>
+                            <p className='text-white'>Contact Us</p>
+                        </span>
+                    </li>
+                </Link>
             </ul>
             <div className='flex w-full items-center flex-col space-y-2 text-xs pb-8'>
                 <div className='h-0.5 w-full bg-white' />
                 <div className='font-sans font-semibold'>
-                    <p>Copyright © 2022 OOTBM 2024</p>
+                    <p>Copyright © OOTBM 2024</p>
                 </div>
             </div>
         </div>
