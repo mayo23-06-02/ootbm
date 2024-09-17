@@ -16,6 +16,7 @@ export default function Home() {
       <Head>
         <title>Home</title>
         <meta charSet="utf-8" />
+        <link rel="icon" href="/logo.ico" />
       </Head>
       <main className="">
         <div>

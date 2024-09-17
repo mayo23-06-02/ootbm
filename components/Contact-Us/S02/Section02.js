@@ -2,18 +2,18 @@ import React from 'react'
 
 export default function Section02() {
     return (
-        <div className='lg:grid lg:px-12 px-4 py-12 lg:pb-0 lg:pt-24 grid-cols-2 grid-flow-row space-y-12 lg:space-y-0'>
+        <div className='lg:grid max-w-[1680px] lg:px-12 px-4 py-12 lg:pb-0 lg:pt-24 grid-cols-2 grid-flow-row space-y-12 lg:space-y-0'>
             <div>
                 <div className='space-y-2'>
                     <div className='text-3xl lg:text-6xl'>
                         <p>Lets get</p><p> down to work</p>
                     </div>
-                    <div className='flex font-sans font-semibold space-x-2 lg:space-x-4 text-xs lg:text-xl'>
+                    <div className='flex font-sans font-semibold space-x-2 lg:space-x-4 text-xs lg:text-sm'>
                         <p>Advertising</p><p>   Branding </p><p>  Strategy </p><p>  Communications </p><p>  Design </p><p>  Events</p>
                     </div>
                 </div>
                 <div className='font-sans font-bold text-sm lg:text-xl'>
-                    <p className='pb-6 pt-8 lg:pb-10 lg:pt-12 text-black/55'>Email, call, or complete the form to get a quote or enquire</p>
+                    <p className='pb-6 pt-8 lg:pb-10 lg:text-sm lg:pt-12 text-black/55'>Email, call, or complete the form to get a quote or enquire</p>
                     <p>Plot 1613 | Hhelemisi Manzini</p>
                     <p>Office No. 01 | Box C633 Hub</p>
                     <p>+268 2505 7595 | +268 76420848</p>

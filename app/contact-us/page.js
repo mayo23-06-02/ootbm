@@ -17,7 +17,7 @@ export default function Contactus() {
                 <div>
                     <Header />
                 </div>
-                <div>
+                <div className="flex flex-col items-center">
                     <Section01 />
                     <Section02 />
                     <div className="pt-24 lg:pt-0">
