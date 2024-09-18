@@ -23,29 +23,29 @@ export default function Header() {
         <div className='flex relative items-center justify-between px-4 lg:px-8 py-2 lg:py-4'>
             <Logo />
             <div className='hidden lg:inline'>
-                <ul className='flex space-x-6 pr-6 text-2xl'>
+                <ul className='flex space-x-6 pr-6 text-2xl text-[#676564]'>
                     <Link href={'../../'}>
-                        <li className='cursor-pointer hover:scale-110  hover:text-black/50'>
+                        <li className='cursor-pointer hover:scale-110 text-[#676564] hover:text-black/50'>
                             <p>HOME</p>
                         </li>
                     </Link>
                     <Link href={'../../about-us'}>
-                        <li className='cursor-pointer hover:scale-110  hover:text-black/50'>
+                        <li className='cursor-pointer hover:scale-110 text-[#676564]  hover:text-black/50'>
                             <p>ABOUT US</p>
                         </li>
                     </Link>
                     <Link href={'../../our-work'}>
-                        <li className='cursor-pointer hover:scale-110  hover:text-black/50'>
+                        <li className='cursor-pointer hover:scale-110 text-[#676564]  hover:text-black/50'>
                             <p>OUR WORK</p>
                         </li>
                     </Link>
                     <Link href={'../../our-clientele'}>
-                        <li className='cursor-pointer hover:scale-110  hover:text-black/50'>
+                        <li className='cursor-pointer hover:scale-110 text-[#676564]  hover:text-black/50'>
                             <p>CLIENTS</p>
                         </li>
                     </Link>
                     <Link href={'../../contact-us'}>
-                        <li className='cursor-pointer hover:scale-110  hover:text-black/50'>
+                        <li className='cursor-pointer hover:scale-110 text-[#676564] hover:text-black/50'>
                             <p>CONTACT US</p>
                         </li>
                     </Link>

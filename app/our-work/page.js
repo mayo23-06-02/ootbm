@@ -23,7 +23,7 @@ export default function OurWork() {
                 <div>
                     <Section01 />
                     <Section02 />
-                    <div className="lg:pt-16 pt-10">
+                    <div className=" pt-10 flex flex-col items-center">
                         <Section04 />
                     </div>
                     <div className="pt-24 lg:pt-0">

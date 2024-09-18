@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="relative max-w-[1920px] mx-auto">
       <Head>
-        <title>OOTBM - Home Page</title>
+        <title>OOTBM</title>
         <meta charSet="utf-8" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
@@ -22,7 +22,7 @@ export default function Home() {
         <div>
           <Header />
         </div>
-        <div>
+        <div className="">
           <SectionOne />
           <SectionTwo />
           <SectionThree />
