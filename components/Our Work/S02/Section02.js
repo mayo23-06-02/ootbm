@@ -28,20 +28,8 @@ export default function Section02() {
                 <div className=' px-4'>
                     <div className=' grid lg:grid-cols-4 max-w-[1280px] md:grid-cols-3 grid-cols-2 gap-2 py-4 rounded-b-lg  bg-[#E6E5E5] px-6 w-full '>
                         <div className='bg-[#F2F2F2] px-4 py-2 rounded-lg cursor-pointer hover:bg-gray-600 hover:text-white  text-[#676564] font-sans font-bold  w-full flex items-center justify-between'>
-                            <Link legacyBehavior href="api/download/OOTBM - Alt - HI-VIZ - workwear.pdf" passHref>
-                                <a download className='line-clamp-1 text-sm '>OOTBM - Alt - HI-VIZ - workwear</a>
-                            </Link>
-                            <BiDownload className='text-3xl w-8 h-8 hidden lg:inline' />
-                        </div>
-                        <div className='bg-[#F2F2F2] px-4 py-2 rounded-lg cursor-pointer hover:bg-gray-600 hover:text-white  text-[#676564] font-sans font-bold  w-full flex items-center justify-between'>
                             <Link legacyBehavior href="api/download/OOTBM - New Corporate Wear Catalogue.pdf" passHref>
                                 <a download className='line-clamp-1 text-sm '>OOTBM - New Corporate Wear Catalogue</a>
-                            </Link>
-                            <BiDownload className='text-3xl w-8 h-8 hidden lg:inline' />
-                        </div>
-                        <div className='bg-[#F2F2F2] px-4 py-2 rounded-lg cursor-pointer hover:bg-gray-600 hover:text-white  text-[#676564] font-sans font-bold  w-full flex items-center justify-between'>
-                            <Link legacyBehavior href="api/download/OOTBM - ALT - Hospitality - workwear.pdf" passHref>
-                                <a download className='line-clamp-1 text-sm '>OOTBM - ALT - Hospitality - workwear</a>
                             </Link>
                             <BiDownload className='text-3xl w-8 h-8 hidden lg:inline' />
                         </div>
