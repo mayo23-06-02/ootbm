@@ -33,12 +33,7 @@ export default function Section02() {
                             </Link>
                             <BiDownload className='text-3xl w-8 h-8 hidden lg:inline' />
                         </div>
-                        <div className='bg-[#F2F2F2] px-4 py-2 rounded-lg cursor-pointer hover:bg-gray-600 hover:text-white  text-[#676564] font-sans font-bold  w-full flex items-center justify-between'>
-                            <Link legacyBehavior href="api/download/OOTBM - Altitude-workwear.pdf" passHref>
-                                <a download className='line-clamp-1 text-sm '>OOTBM - Altitude-workwear</a>
-                            </Link>
-                            <BiDownload className='text-3xl w-8 h-8 hidden lg:inline' />
-                        </div>
+                       
                         <div className='bg-[#F2F2F2] px-4 py-2 rounded-lg cursor-pointer hover:bg-gray-600 hover:text-white  text-[#676564] font-sans font-bold  w-full flex items-center justify-between'>
                             <Link legacyBehavior href="api/download/OOTBM - Body Warmers, Hoodies, Sweaters, Tracksuits & Fleece.pdf" passHref>
                                 <a download className='line-clamp-1 text-sm '>OOTBM - Body Warmers, Hoodies, Sweaters, Tracksuits & Fleece</a>
