@@ -5,8 +5,8 @@ export default function Logo() {
   return (
     <div>
         <div className=''>
-            <Image src={LogoImage} alt="logo" width={200} height={200} className="hidden lg:inline"/>
-            <Image src={LogoImage} alt="logo" width={100} height={100} className="lg:hidden"/>
+            <Image src={LogoImage} alt="logo" width={150} height={200} className="hidden lg:inline"/>
+            <Image src={LogoImage} alt="logo" width={90} height={100} className="lg:hidden"/>
         </div>
     </div>
   )
